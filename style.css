@@ -1,0 +1,376 @@
+
+* {
+	margin: 0;
+	padding: 0;
+
+    font-family: sans-serif;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+
+.main-container {
+
+  }
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+  .nav ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  .nav ul li a{
+    text-decoration: none;
+
+    font-size: 30px;
+    color: black;
+
+  }
+.nav button{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+  .nav .login {
+    color: white;
+    background-color: #204e51;
+  }
+
+  .intro-section {
+    background-color: rgba(30, 30, 30, 0.9);
+    text-align: center;
+    color: white;
+   padding: 200px 100px;
+    background-image: url("./assets/image-1-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .intro-section .strong-p{
+  color: white;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 93.60px;
+  word-wrap: break-word
+  }
+
+  .intro-section .weak-p{
+    margin:  20px 0;
+    color: white;
+    font-size: 16px;
+    padding: 0 250px;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+  }
+
+  .intro-section button{
+    margin:  50px 0;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+  
+  }
+  .intro-section .btn-start{
+    background-color: #204e51;
+  }
+  .intro-section .btn-learn{
+    background-color: transparent;
+    border: white 1px solid;
+  }
+
+
+
+
+.section-Passion{
+  margin-top: 180px;
+  justify-content: space-between;
+  padding: 0 30px;
+  display: flex;
+}
+.section-Passion .left-side{
+  /* background-color: aqua; */
+  width: 620px;
+}
+.section-Passion .left-side h1{
+color: #204E51;
+font-size: 72px;
+font-weight: 700;
+line-height: 74.88px;
+
+}
+
+
+.section-Passion .right-side{
+  position: relative;
+  border-radius: 10px;
+  width: 500px;
+  height: 490px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("./assets/rectangle-10-kSY.png");
+}
+
+.section-Passion .left-side p{
+  margin: 24px 0;
+color: #1E1E1E;
+font-size: 16px;
+font-family: Raleway;
+font-weight: 400;
+line-height: 30px;
+word-wrap: break-word
+}
+.section-Passion .left-side button{
+  background-color: #204e51;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.right-side .since{
+  left: 90px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px 40px;
+  box-shadow: -19px 200px 348px 5px rgba(0,0,0,0.24);
+  -webkit-box-shadow: -19px 200px 348px 5px rgba(0,0,0,0.24);
+  -moz-box-shadow: -19px 200px 348px 5px rgba(0,0,0,0.24);
+  bottom: -30px;
+  position: absolute;
+  color: #204E51;
+  font-size: 36px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 37.44px;
+  word-wrap: break-word
+}
+.section-services{
+  margin: 180px 0;
+
+}
+ .header {
+  text-align: center;
+}
+ .header h1{
+color: #204E51;
+font-size: 72px;
+font-family: Montserrat;
+font-weight: 700;
+line-height: 74.88px;
+word-wrap: break-word
+}
+ .header p{
+  width: 625px;
+  margin: 0 auto;
+color: #1E1E1E;
+font-size: 16px;
+font-family: Raleway;
+font-weight: 400;
+line-height: 30px;
+word-wrap: break-word
+}
+
+.section-services .card{
+
+  width: 281px;
+  border-radius: 20px;
+  height: 281px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.section-services .card img{
+  margin-top: 80px;
+  width: 80px;
+  height: 80px;
+}
+.section-services .card p{
+color: #204E51;
+font-size: 24px;
+font-family: Montserrat;
+font-weight: 400;
+line-height: 30px;
+word-wrap: break-word
+}
+
+.section-services  .cards{
+  justify-content: center;
+  padding: 0 100px;
+  margin: 80px 0;
+  gap: 40px;
+  display: flex;
+}
+
+.section-Product{
+  margin : 180px 0; 
+}
+
+.section-Product h3{
+text-align: center;
+color: #204E51;
+font-size: 20px;
+font-family: Montserrat;
+font-weight: 700;
+text-decoration: underline;
+line-height: 20.80px;
+word-wrap: break-word
+}
+
+
+.section-Product .cards{
+  margin : 80px 0; 
+  justify-content: space-around;
+  display: flex;
+}
+.section-Product .cards .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  width: 281px;
+}
+.section-Product .cards .card img{
+  margin-top: 54px;
+  margin-bottom: 24px;
+  width: 189px;
+  height: 190px;
+  border-radius: 10px;
+}
+.section-Product .cards .card p{
+ padding: 0 40px;
+  margin-bottom:52px ;
+  margin-top: 24px;
+  color: #1E1E1E;
+font-size: 16px;
+font-family: Raleway;
+font-weight: 400;
+line-height: 30px;
+
+}
+
+.section-Farming {
+  box-sizing: border-box;
+  padding: 6.2rem 9.9rem 13.2rem 9.9rem;
+  width: 100%;
+  height: 629px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-4-bg.png');
+  background-color: rgba(0, 0, 0, 0.6000000238);
+  flex-shrink: 0;
+
+}
+
+.section-Farming h1{
+  color: white;
+font-size: 72px;
+font-family: Montserrat;
+font-weight: 700;
+line-height: 74.88px;
+word-wrap: break-word
+}
+
+.section-Farming  button{
+
+  margin: 100px 20px ;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+}
+.section-Farming .btn-learn{
+  background-color: #204e51;
+
+  border-radius: 10px;
+}
+.section-Farming .contact{
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.Benefits{
+  margin: 180px 0;
+  padding: 0 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.Benefits .left-side{
+  margin-top: 100px;
+  width: 521px;
+}
+.Benefits .left-side h1{
+  color: #204E51;
+  font-size: 72px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 82.08px;
+  word-wrap: break-word
+}
+.Benefits .left-side p{
+  margin-top: 29px;
+  color: #1E1E1E;
+font-size: 20px;
+font-family: Raleway;
+font-weight: 400;
+line-height: 24px;
+word-wrap: break-word
+}
+.Benefits .left-side button{
+  margin:  50px 0;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #204e51;
+}
+
+.Benefits .rigth-side{
+  width: 500px;
+  height: 650px;
+  border-radius: 20px;
+  background-color: #204E51;
+}
+
+.Benefits .rigth-side .list-products {
+  margin: 82px 50px;
+}
+
+.Benefits .rigth-side .list-products .service{
+  margin-top:62px ;
+  display: flex;
+  gap: 20px;
+}
+
+.Benefits .rigth-side .list-products .service i{
+  margin-top: -20px;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  background-color: #163537;
+  border-radius: 50%;
+}
+
+.Benefits .rigth-side .list-products .service h1{
+  color: white;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 39px;
+  word-wrap: break-word
+}
+
+.Benefits .rigth-side .list-products .service p{
+  color: white;
+  margin-top: 10px;
+font-size: 20px;
+font-family: Montserrat;
+font-weight: 400;
+line-height: 27px;
+word-wrap: break-word
+}
